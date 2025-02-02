@@ -6,11 +6,14 @@
     text-align: center;
     border-radius: 8px;
     cursor: pointer;
+    border: none;
+}
+button:disabled {
+    opacity: 0.5;
 }
 .button_primary {
     color: var(--white);
     background: var(--primary);
-    border-color: var(--primary);
     padding-top: 15px;
     padding-bottom: 14px;
     padding-left: 63px;
@@ -24,13 +27,15 @@
 .button_secondary {
     color: var(--white);
     background: var(--purple);
-    border-color: var(--purple);
     padding-top: 15px;
     padding-bottom: 14px;
     padding-left: 53px;
     padding-right: 53px;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
+.button_secondary:hover {
+    background: #5028C6;
+  }
 .button_alternate {
     color: var(--black);
     background: var(--white);
@@ -39,4 +44,8 @@
     padding-bottom: 14px;
     padding-left: 58px;
     padding-right: 58px;
+    border: 1px solid #ACB5BD
 }
+.button_alternate:hover {
+    border: 1px solid #212429
+  }
