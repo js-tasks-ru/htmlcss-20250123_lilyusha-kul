@@ -1,23 +1,9 @@
-.accordion__details {
-    border: 1px solid #ACB5BD;
-    border-radius: 8px;
-}
-
-summary {
-    display: block;
-  }
-
 .accordion__summary {
-    padding: 24px 536px 24px 32px;
+    display: block;
     color: #212429;
 }
 
-details[open] > summary {
-    padding: 24px 536px 0px 32px;
-  }
-
-.accordion_p {
-    padding: 16px 48px 32px 32px;
+.accordion__text {
     color: #495057;
 }
 
@@ -32,6 +18,9 @@ details[open] > summary {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 24px 32px 24px 32px;
 }
 
 .accordion__item:last-child {
