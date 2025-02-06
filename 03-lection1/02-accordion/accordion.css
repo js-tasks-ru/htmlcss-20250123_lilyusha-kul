@@ -5,6 +5,8 @@
 
 .accordion__text {
     color: #495057;
+    padding-top: 16px;
+    padding-bottom: 8px;
 }
 
 .accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
