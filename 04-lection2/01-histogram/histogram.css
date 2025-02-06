@@ -1,23 +1,26 @@
-.container {
-    height: 185px;
+.histogram {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     padding: 16px 24px 24px 24px;
+}
+
+.histogram__header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 6px;
 }
-.histogram__title {
+
+.histogram__container {
     font-family: Inter;
     font-weight: 400;
     display: flex;
-    flex-direction: column;
-}
-.histogram__text {
-    display: flex;
     justify-content: space-between;
 }
-.histogram__name {
+
+.histogram__text {
     font-size: 16px;
     text-align: left;
     color: #212429;
@@ -25,7 +28,7 @@
     line-height: 24px;
     margin: 0px;
 }
-.histogram__view {
+.histogram__link {
     font-size: 16px;
     line-height: 24px;
     text-align: right;
@@ -34,6 +37,8 @@
     order: 1;
 }
 .histogram__number {
+    font-family: Inter;
+    font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     text-align: left;
@@ -42,37 +47,40 @@
 }
 .histogram__content {
    display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+   /* flex-direction: row; */
+   /* justify-content: space-around; */
+   align-items: baseline;
+   height: 50px;
    gap: 1px; 
 }
 .item {
     background-color: #4263EB;
-    height: 50px;
-    width: 100%;
-    align-self: end;
+    height: 100%;
+    flex-grow: 1;
+    /* width: 100%; */
+    /* align-self: end; */
 }
-.item_50 {
-    height: 50px;
+.histogram__item_50 {
+    height: 100%;
 }
-.item_45 {
-    height: 45px;
+.histogram__item_45 {
+    height: 90%;
 }
-.item_39 {
-    height: 39px;
+.histogram__item_39 {
+    height: 78%;
 }
-.item_35 {
-    height: 35px;
+.histogram__item_35 {
+    height: 70%;
 }
-.item_30 {
-    height: 30px;
+.histogram__item_30 {
+    height: 60%;
 }
-.item_22 {
-    height: 22px;
+.histogram__item_22 {
+    height: 44%;
 }
-.item_17 {
-    height: 17px;
+.histogram__item_17 {
+    height: 34%;
 }
-.item_11 {
-    height: 11px;
+.histogram__item_11 {
+    height: 22%;
 }
