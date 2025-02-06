@@ -1,0 +1,18 @@
+.card {
+    width: 350px;
+    height: 367px;
+    border-radius: 12px;
+    background-color: var(--white);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24.61px;
+    text-align: center;
+    color: #212429;
+    padding: 24px 65px 24px 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 75px;
+    align-items: center;
+}

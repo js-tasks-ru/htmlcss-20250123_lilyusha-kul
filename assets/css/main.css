@@ -3,6 +3,7 @@
 @import '../../components/footer/footer.css';
 @import '../../components/page/page.css';
 @import '../../components/main/main.css';
+@import '../../components/card/card.css';
 
 :root {
     --white: #ffffff;
@@ -21,6 +22,11 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+}
+
+html,
+body {
+    height: 100%;
 }
 
 * {
