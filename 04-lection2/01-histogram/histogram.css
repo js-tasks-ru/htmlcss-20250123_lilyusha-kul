@@ -47,8 +47,6 @@
 }
 .histogram__content {
    display: flex;
-   /* flex-direction: row; */
-   /* justify-content: space-around; */
    align-items: baseline;
    height: 50px;
    gap: 1px; 
@@ -57,8 +55,6 @@
     background-color: #4263EB;
     height: 100%;
     flex-grow: 1;
-    /* width: 100%; */
-    /* align-self: end; */
 }
 .histogram__item_50 {
     height: 100%;
