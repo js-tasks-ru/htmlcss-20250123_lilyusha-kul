@@ -48,27 +48,27 @@
     background-color: #4263EB;
     flex-grow: 1;
 }
-.histogram__item_50 {
+.histogram__item_100 {
     height: 100%;
 }
-.histogram__item_45 {
+.histogram__item_90 {
     height: 90%;
 }
-.histogram__item_39 {
+.histogram__item_78 {
     height: 78%;
 }
-.histogram__item_35 {
+.histogram__item_70 {
     height: 70%;
 }
-.histogram__item_30 {
+.histogram__item_60 {
     height: 60%;
 }
-.histogram__item_22 {
+.histogram__item_44 {
     height: 44%;
 }
-.histogram__item_17 {
+.histogram__item_34 {
     height: 34%;
 }
-.histogram__item_11 {
+.histogram__item_22 {
     height: 22%;
 }
