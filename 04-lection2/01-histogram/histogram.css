@@ -22,38 +22,30 @@
 
 .histogram__text {
     font-size: 16px;
-    text-align: left;
     color: #212429;
     opacity: 0.8px;
     line-height: 24px;
-    margin: 0px;
 }
 .histogram__link {
     font-size: 16px;
     line-height: 24px;
-    text-align: right;
     color: #4263EB;
-    margin: 0px;
-    order: 1;
 }
 .histogram__number {
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    text-align: left;
     color: #212429;
-    margin: 0px;
 }
 .histogram__content {
    display: flex;
-   align-items: baseline;
+   align-items: flex-end;
    height: 50px;
    gap: 1px; 
 }
-.item {
+.histogram__item {
     background-color: #4263EB;
-    height: 100%;
     flex-grow: 1;
 }
 .histogram__item_50 {
