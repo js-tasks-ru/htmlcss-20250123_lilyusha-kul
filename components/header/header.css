@@ -1,19 +1,19 @@
 .header {
     background-color: var(--white);
-    flex-basis: 15%;
     display: flex;
     justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 77px;
+
 }
-.header__container {
+/* .header__container {
     max-width: 1110px;
     width: 100%;
-}
+} */
 .header__title {
     font-family: Inter;
     font-size: 50px;
     font-weight: 500;
     line-height: 64px;
-    color: var(--black);
-    padding-top: 96px;
-    padding-bottom: 77px;
+    color: var(--black); 
 }

@@ -7,3 +7,7 @@
 .page__main {
     flex-grow: 1;
 }
+.container {
+    max-width: 1110px;
+    width: 100%;
+}
