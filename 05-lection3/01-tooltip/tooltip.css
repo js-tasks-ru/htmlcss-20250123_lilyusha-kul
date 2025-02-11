@@ -17,7 +17,9 @@
     text-align: center;
     padding: 10px;
     position: absolute;
-    transform: translateY(-70%);
+    top: 190%;
+    left: 0%;
+    transform: translateY(-50%);
 }
 
 .tooltip__bubble:before {
@@ -25,15 +27,17 @@
     border: 6px solid transparent;
     border-top: 6px solid var(--blue);
     position: absolute;
-    top: 100%;
+    /* top: 100%; */
     left: 50%;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
+    bottom: 100%;
+    transform: translateX(-570%) translateY(5%) rotateX(180deg);
 }
 
-.tooltip__trigger {
+/* .tooltip__trigger {
     top: 100%;
     transform: translateX(257%) translateY(170%);
-}
+} */
 
 .tooltip__trigger:hover ~ .tooltip__bubble {
     display: block;
