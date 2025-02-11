@@ -1,0 +1,55 @@
+@import '../../03-lection1/01-button/button.css';
+
+.modal {
+    position: fixed;
+    background-color: var(--grey-modal);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+}
+
+.modal__inner {
+    width: 428px;
+    height: 294px;
+    border-radius: 8px;
+    background: var(--white); 
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.modal__close {
+    align-self: flex-end;
+    width: 16px;
+    height: 16px;
+}
+
+.modal__content {
+    padding: 0px 28px;
+}
+
+.modal__title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--blue-modal);
+    text-align: left;
+    padding-bottom: 14px;
+}
+
+.modal__description {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
