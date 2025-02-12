@@ -61,7 +61,7 @@
     background: var(--blue-3);
 }
 
-.calendar__item_number_selected_margin {
+.calendar__item_number_selected_outer {
     background: var(--blue-1);
     color: var(--white);
 }
