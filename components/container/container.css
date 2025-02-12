@@ -2,3 +2,11 @@
     max-width: 1110px;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 375px;
+        width: 100%;
+    }
+}
+

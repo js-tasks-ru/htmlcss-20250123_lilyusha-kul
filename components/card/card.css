@@ -19,3 +19,17 @@
 .card__preview {
     padding-bottom: 51px;
 }
+
+@media screen and (max-width: 1280px) {
+    .card {
+        width: calc(350px * 1.5);
+        height: calc(367px * 1.5);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 350px;
+        height: 367px;
+    }
+}

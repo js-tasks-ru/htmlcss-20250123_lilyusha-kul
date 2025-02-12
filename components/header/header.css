@@ -13,3 +13,15 @@
     line-height: 64px;
     color: var(--black); 
 }
+
+@media screen and (max-width: 768px) {
+    .header__title {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 0%;
+        color: var(--black); 
+        padding-left: 16px;
+    }
+}
