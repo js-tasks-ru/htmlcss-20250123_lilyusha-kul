@@ -1,15 +1,11 @@
 .template {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    justify-items: center;
     grid-template-areas: "header"
                           "main"
-                         "footer";
+                         "footer";                      
 }
 
 .template__header {
@@ -21,14 +17,15 @@
 .template__main {
     grid-area: main;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: auto 1fr;
     gap: 56px;
     width: 100%;
-    padding: 36px 165px;
+    padding: 36px;
     background:  var(--grey-template);
+    align-content: stretch;  
 }
 
-.template__main__menu {
+.menu {
     background:  var(--grey-template);
     font-family: Inter;
     font-weight: 400;
@@ -38,17 +35,16 @@
     height: 246px;
 }
 
-.template__main__menu__title {
+.menu__title {
     height: 26px;
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    letter-spacing: 0%;
     margin-bottom: 16px;
 }
 
-.template__main__menu__list {
+.menu__list {
     display: grid;
     grid-template-rows: repeat(8, 1fr);
     gap: 4px;
@@ -58,11 +54,11 @@
     line-height: 22px;
 }
 
-.template__main__menu__list_selected {
+.menu__list_selected {
     color: var(--red);
 }
 
-.template__main__component {
+.component-description {
     background: var(--white);
     padding: 32px 48px;
 }
@@ -81,7 +77,7 @@
     padding: 56px;
 }
 
-.template__main__component__title {
+.component-description__title {
     font-family: Inter;
     font-weight: 400;
     font-size: 28px;
