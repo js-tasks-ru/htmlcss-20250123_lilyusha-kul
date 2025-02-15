@@ -1,0 +1,42 @@
+.menu {
+    background:  var(--grey-template);
+    grid-column-start: second;
+    grid-column-end: third;
+    grid-row-start: row2;
+    grid-row-end: row3;
+}
+
+.menu__title {
+    height: 26px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.menu__list {
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    row-gap: 4px;
+}
+
+.menu__list__item {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.menu__list__mainPage {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.menu__list__item_selected {
+    color: var(--red);
+}

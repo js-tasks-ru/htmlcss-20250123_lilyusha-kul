@@ -1,3 +1,11 @@
 .main {
-    background-color: white;
+    background:  var(--grey-template);
+}
+
+.main__inner {
+    display: grid;
+    grid-template-columns: [first] auto [second] 229px [third] 56px [fourth] 825px [fifth] auto [end];
+    grid-template-rows: [row1] 36px [row2] 246px [row3] 1fr [row4] auto [row-last];
+    height: 100%;
+    background:  var(--grey-template);
 }

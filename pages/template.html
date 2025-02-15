@@ -6,27 +6,36 @@
     </head>
     <body>
         <div class="template">
-            <header class="header template__header container"></header>
-            <main class="main template__main container">
-                <div class="menu">
-                    <div class="menu__title">Components</div>
-                    <div class="menu__list">
-                        <div>Modal</div>
-                        <div>Tooltip</div>
-                        <div>Avatar</div>
-                        <div>Calendar</div>
-                        <div class="menu__list_selected">Histogram</div>
-                        <div>Custom form elements</div>
-                        <div></div>
-                        <div>Main page</div>
+            <header class="header template__header">
+                <div class="container"></div>
+            </header>
+            <main class="main template__main">
+                <div class="container">
+                    <div class="main__inner">
+                        <div class="menu">
+                            <div class="menu__title">Components</div>
+                                <div class="menu__list">
+                                    <div сlass="menu__list__item">Modal</div>
+                                    <div сlass="menu__list__item">Tooltip</div>
+                                    <div сlass="menu__list__item">Avatar</div>
+                                    <div сlass="menu__list__item">Calendar</div>
+                                    <div class="menu__list__item menu__list__item_selected">Histogram</div>
+                                    <div сlass="menu__list__item">Custom form elements</div>
+                                </div>
+                                <div сlass="menu__list__mainPage">Main page</div>
+                        </div>
+                        <div class="component-description">
+                            <div class="component-description__title">Histogram</div>
+                            <div class="component-description__preview"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="component-description">
-                    <div class="component-description__title">Histogram</div>
-                    <div class="component-description__preview"></div>
-                </div>
             </main>
-            <footer class="footer template__footer container">Reusable component library</footer>
+            <footer class="footer template__footer">
+                <div class="container">
+                    Reusable component library
+                </div>
+            </footer>
         </div>
     </body>
 </html>
