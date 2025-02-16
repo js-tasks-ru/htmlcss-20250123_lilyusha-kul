@@ -2,7 +2,7 @@
     background-color: var(--white);
     display: flex;
     justify-content: center;
-    padding-top: 96px;
+    padding-top: 24px;
     padding-bottom: 77px;
 }
 
@@ -12,6 +12,11 @@
     font-weight: 500;
     line-height: 64px;
     color: var(--black); 
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {

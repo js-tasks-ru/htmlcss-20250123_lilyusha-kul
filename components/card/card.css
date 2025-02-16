@@ -7,7 +7,7 @@
     font-weight: 500;
     line-height: 24.61px;
     text-align: center;
-    color: #212429;
+    color: var(--black);
     padding: 24px 24px 24px 24px;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,21 @@
 
 .card__preview {
     padding-bottom: 51px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card__description {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+    color: var(--grey-4);
 }
 
 @media screen and (max-width: 768px) {
