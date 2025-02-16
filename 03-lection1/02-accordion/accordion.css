@@ -1,5 +1,6 @@
 .accordion__summary {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     color: #212429;
 }
 
@@ -11,6 +12,10 @@
 
 .accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
     display: none;
+}
+
+.accordeon__icon {
+    align-self: center;
 }
 
 .accordion__item {
