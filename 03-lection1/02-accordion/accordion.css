@@ -14,8 +14,10 @@
     display: none;
 }
 
-.accordeon__icon {
-    align-self: center;
+.accordion__icon {
+    align-self: right;
+    width: 26px;
+    height: 26px;
 }
 
 .accordion__item {
