@@ -1,10 +1,6 @@
 .component-description {
     background: var(--white);
     padding: 32px 48px;
-    grid-column-start: fourth;
-    grid-column-end: fifth;
-    grid-row-start: row2;
-    grid-row-end: row4;
 }
 
 .component-description__title {
@@ -13,4 +9,24 @@
     font-size: 28px;
     line-height: 38px;
     color: var(--grey-4)
+}
+
+@media screen and (max-width: 768px) {
+    .main__inner {
+        grid-template-columns: auto;
+    }
+
+    .component-description {
+        background: var(--white);
+        padding: 32px 16px;
+    }
+
+    .component-description__title {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--grey-4)
+    }
+    
 }

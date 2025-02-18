@@ -1,13 +1,4 @@
-.menu {
-    background:  var(--grey-template);
-    grid-column-start: second;
-    grid-column-end: third;
-    grid-row-start: row2;
-    grid-row-end: row3;
-}
-
 .menu__title {
-    height: 26px;
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
