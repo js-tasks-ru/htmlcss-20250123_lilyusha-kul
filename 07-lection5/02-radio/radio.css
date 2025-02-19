@@ -1,10 +1,4 @@
 .radio {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.radio__item {
     display: inline-block;
 }
 
@@ -37,10 +31,6 @@
     gap: 12px;
 }
 
-.radio__control_disabled {
-    background-color: var(--grey-2);
-}
-
 .radio__title {
     font-family: 'Inter';
     font-style: normal;
@@ -48,10 +38,6 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--grey-4);
-}
-
-.radio__title_disabled {
-    color: var(--grey-2);
 }
 
 .radio__input:checked ~ .radio__state .radio__control {
@@ -64,4 +50,9 @@
 
 .radio__input:focus ~ .radio__state .radio__title {
     text-decoration: underline;
+}
+
+.radio__input:disabled ~ .radio__state .radio__control {
+    background-color: var(--grey-2);
+    color: var(--grey-2);
 }
