@@ -29,6 +29,7 @@
     --secondary: var(--purple);
 }
 
-body {
+html, body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
