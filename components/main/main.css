@@ -2,8 +2,7 @@
     background-color: var( --grey-1);
     display: flex;
     justify-content: center;
-    padding-top: 68px;
-    padding-bottom: 68px;
+    padding: 15px;
 }
 .main__grid {
     display: flex;
@@ -11,4 +10,10 @@
     gap: 30px;
     justify-content: center;
 }
-
+.button {
+    margin-top: 64px;
+    margin-bottom: 92px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

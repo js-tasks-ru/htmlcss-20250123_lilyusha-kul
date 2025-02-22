@@ -7,6 +7,11 @@
 @import '../../components/container/container.css';
 @import '../../components/logo/logo.css';
 @import '../../03-lection1/01-button/button.css';
+@import '../../components/tabs/tabs.css';
+@import '../../05-lection3/01-tooltip/tooltip.css';
+@import '../../05-lection3/03-calendar/calendar.css';
+@import '../../05-lection3/02-modal/modal.css';
+@import '../../04-lection2/01-histogram/histogram.css';
 
 :root {
     --white: #ffffff;
