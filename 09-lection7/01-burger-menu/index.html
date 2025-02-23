@@ -2,11 +2,35 @@
 <!-- Страница бургер-меню -->
 <html lang="ru">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./burger-menu.css">
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
-
+        <div class="burger-menu">
+            <button id="burger-menu-open" class="burger-menu__button burger-menu__button_open">
+                <svg class="burger-menu__icon">
+                    <use href="../../assets/images/icons/sprite.svg#menu">
+                </svg>
+            </button>
+            <div class="menu" id="burger-menu">
+                <button id="burger-menu-close" class="burger-menu__button burger-menu__button_close">
+                    <svg class="burger-menu__icon">
+                        <use href="../../assets/images/icons/sprite.svg#x">
+                    </svg>
+                </button>
+                <div class="menu__title">Components</div>
+                <div class="menu__list">
+                    <a class="menu__list_item" href="">Modal</a>
+                    <a class="menu__list_item menu__list_item_selected" href="">Tooltip</a>
+                    <a class="menu__list_item" href="">Avatar</a>
+                    <a class="menu__list_item" href="">Calendar</a>
+                    <a class="menu__list_item" href="">Histogram</a>
+                    <a class="menu__list_item" href="">Custom form elements</a>
+                </div>
+                <div class="menu__list menu__list_main-page">Main page</div>
+            </div>
+        </div>
     </body>
 </html>
