@@ -18,14 +18,4 @@
 
 .template__footer {
     grid-area: footer;
-    background: var(--grey-template);
-    font-family: Inter;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 4%;
-    color: var(--grey-3);
-    text-align: center;
-    padding: 56px;
 }
-

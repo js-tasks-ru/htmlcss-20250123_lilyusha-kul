@@ -22,7 +22,7 @@
     gap: 24px;
 }
 
-.header__text__item {
+.header__text-item {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
@@ -31,7 +31,7 @@
     color: var(--grey-3);
 }
 
-.header__text__item_selected {
+.header__text-item_selected {
     color: var(--black);
 }
 
@@ -47,7 +47,7 @@
     }
     
     .header__text {
-        display: none !important;
+        display: none;
     }
 
     .header__top {

@@ -12,7 +12,7 @@
     row-gap: 4px;
 }
 
-.menu__list__item {
+.menu__list-item {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
@@ -20,10 +20,10 @@
     color: var(--black);
 }
 
-.menu__list__item_mt-30 {
+.menu__list-item_mt-30 {
     margin-top: 30px;
 }
 
-.menu__list__item_selected {
+.menu__list-item_selected {
     color: var(--red);
 }

@@ -1,9 +1,17 @@
 .footer {
-    background-color: var(--white);
+    background-color: transparent;
 }
 
-.footer_background {
-    background-color: transparent;
+.footer__text {
+    background: var(--grey-template);
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 4%;
+    color: var(--grey-3);
+    text-align: center;
+    padding: 56px;
 }
 
 @media screen and (max-width: 768px) {
