@@ -1,4 +1,4 @@
-.input {
+.input__label {
     font-family: Inter;
     font-weight: 500;
     font-size: 12px;
@@ -8,7 +8,7 @@
 }
 
 .input__field {
-    width: 350px;
+    width: 300px;
     height: 56px;
     border-radius: 8px;
     border: 1px solid var(--grey-2);
@@ -26,6 +26,7 @@
 
 .input__wrapper {
     position: relative;
+    width: 350px;
 }
 
 .input__icon {
@@ -33,7 +34,6 @@
     height: 24px;
     position: absolute;
     top: 16px;
-    left: 334px;
     right: 16px;
 } 
 
@@ -63,7 +63,7 @@
     border: 1px solid var(--red);
 }
 
-.input__field:disabled .input {
+.input_disabled .input__field {
     color: var(--grey-2);
-    background-color: var(--grey-2);
+    background-color: var(--grey-1);
 }
