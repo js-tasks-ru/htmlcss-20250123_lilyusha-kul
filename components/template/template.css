@@ -1,0 +1,21 @@
+.template {
+    height: 100%;
+    background-color: var(--grey-template);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header"
+                          "main"
+                         "footer";                      
+}
+
+.template__header {
+    grid-area: header;
+}
+
+.template__main {
+    grid-area: main;
+}
+
+.template__footer {
+    grid-area: footer;
+}
