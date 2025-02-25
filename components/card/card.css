@@ -1,0 +1,50 @@
+.card {
+    height: 367px;
+    border-radius: 12px;
+    background-color: var(--white);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24.61px;
+    text-align: center;
+    color: var(--black);
+    padding: 24px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 24px;
+    align-items: center;
+    flex-grow: 1;
+    /* flex-basis: 30%; */
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card__description {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+    color: var(--grey-4);
+}
+
+.card__preview_checkbox-radio {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 42px 42px 42px; 
+    grid-auto-flow: column;
+    row-gap: 16px;
+    column-gap: 42px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        height: 367px;
+    }
+}

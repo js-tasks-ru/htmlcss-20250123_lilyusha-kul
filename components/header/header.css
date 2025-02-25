@@ -1,3 +1,29 @@
 .header {
-    background-color: white;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.header__title {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 64px;
+    color: var(--black); 
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 0%;
+        padding-left: 16px;
+    }
 }

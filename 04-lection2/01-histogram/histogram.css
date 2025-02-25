@@ -72,3 +72,7 @@
 .histogram__item_22 {
     height: 22%;
 }
+
+.histogram_preview {
+    width: 300px;
+}

@@ -65,3 +65,14 @@
     background: var(--blue-1);
     color: var(--white);
 }
+
+.calendar_preview {
+    height: 220px;
+    width: 202px;
+}
+
+.calendar_preview .calendar__inner {
+    bottom: 30px;
+    right: -10px;
+    left: -10px;
+}

@@ -35,3 +35,11 @@
 .tooltip__trigger:hover ~ .tooltip__bubble {
     display: block;
 }
+
+.tooltip_preview {
+    padding-bottom: 97px;
+}
+
+.tooltip_preview .tooltip__bubble {
+    display: block;
+}
