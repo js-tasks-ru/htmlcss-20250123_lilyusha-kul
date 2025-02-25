@@ -33,19 +33,19 @@
                     </div>
                     <h1 class="header__title">Reusable component library</h1>
             </header>
-            <div class="nav">
+            <div class="tabs">
                 <div class="container">
-                    <div class="tabs">
-                        <input type="radio" id="#all-tab" name="tabs" class="radio__input all-tab" checked>
-                        <input type="radio" id="#elements-tab" class="radio__input elements-tab" name="tabs">
-                        <input type="radio" id="#containers-tab" class="radio__input containers-tab" name="tabs">
-                        <input type="radio" id="#templates-tab" class="radio__input templates-tab" name="tabs">
+                    <div class="tabs__input">
+                        <input type="radio" id="#all-tab" name="tabs" class="tabs__input__item tabs__input__item_all-tab" autofocus checked>
+                        <input type="radio" id="#elements-tab" class="tabs__input__item tabs__input__item_elements-tab" name="tabs">
+                        <input type="radio" id="#containers-tab" class="tabs__input__item tabs__input__item_containers-tab" name="tabs">
+                        <input type="radio" id="#templates-tab" class="tabs__input__item tabs__input__item_templates-tab" name="tabs">
                     
                         <div class="tabs__scroller">
-                            <label class="radio__title all-tab" for="#all-tab">All components</label>
-                            <label class="radio__title elements-tab" for="#elements-tab">Elements</label>
-                            <label class="radio__title containers-tab" for="#containers-tab">Containers</label>
-                            <label class="radio__title templates-tab" for="#templates-tab">Templates</label>
+                            <label class="tabs__scroller__title tabs__scroller__title_all-tab" for="#all-tab">All components</label>
+                            <label class="tabs__scroller__title tabs__scroller__title_elements-tab" for="#elements-tab">Elements</label>
+                            <label class="tabs__scroller__title tabs__scroller__title_containers-tab" for="#containers-tab">Containers</label>
+                            <label class="tabs__scroller__title tabs__scroller__title_templates-tab" for="#templates-tab">Templates</label>
                         </div>
                         <div class="tabs__content tabs__content_container">
                             <main class="main page__main">
@@ -132,25 +132,17 @@
                                     </div>
                                     <div class="card">
                                         <div class="card__preview">
-                                            <div class="modal_preview">
-                                                <button id="modal-open" class="button button_primary">Open modal</button>
-                                                <div id="modal" class="modal">
-                                                    <div class="modal__inner">
-                                                        <div id="modal-close" class="modal__close">
-                                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4714 3.52861C12.7318 3.78896 12.7318 4.21107 12.4714 4.47141L4.47141 12.4714C4.21107 12.7318 3.78896 12.7318 3.52861 12.4714C3.26826 12.2111 3.26826 11.789 3.52861 11.5286L11.5286 3.52861C11.789 3.26826 12.2111 3.26826 12.4714 3.52861Z" fill="#495057"/>
-                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.52861 3.52861C3.78896 3.26826 4.21107 3.26826 4.47141 3.52861L12.4714 11.5286C12.7318 11.789 12.7318 12.2111 12.4714 12.4714C12.2111 12.7318 11.789 12.7318 11.5286 12.4714L3.52861 4.47141C3.26826 4.21107 3.26826 3.78896 3.52861 3.52861Z" fill="#495057"/>
-                                                            </svg>
-                                                        </div>
-                                                        <div class="modal__content">
-                                                            <div class="modal__title">Modal title</div>
-                                                            <div class="modal__description">
-                                                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                                                            </div>
-                                                        </div>  
+                                            <div id="modal" class="modal_preview">
+                                                    <div id="modal-close" class="modal__close">
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4714 3.52861C12.7318 3.78896 12.7318 4.21107 12.4714 4.47141L4.47141 12.4714C4.21107 12.7318 3.78896 12.7318 3.52861 12.4714C3.26826 12.2111 3.26826 11.789 3.52861 11.5286L11.5286 3.52861C11.789 3.26826 12.2111 3.26826 12.4714 3.52861Z" fill="#495057"/>
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.52861 3.52861C3.78896 3.26826 4.21107 3.26826 4.47141 3.52861L12.4714 11.5286C12.7318 11.789 12.7318 12.2111 12.4714 12.4714C12.2111 12.7318 11.789 12.7318 11.5286 12.4714L3.52861 4.47141C3.26826 4.21107 3.26826 3.78896 3.52861 3.52861Z" fill="#495057"/>
+                                                        </svg>
                                                     </div>
-                                                </div>
+                                                    <div class="modal__content">
+                                                        <div class="modal__title">Modal title</div>
+                                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                                    </div>  
                                             </div>
                                         </div>
                                         <div class="card__content">
@@ -165,7 +157,82 @@
                             <main class="main page__main">
                                 <div class="main__grid container">
                                     <div class="card">
-                                        <div class="card__preview"></div>
+                                        <div class="card__preview">
+                                            <div class="card__preview_checkbox-radio">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" class="checkbox__input">
+                                                    <div class="checkbox__state">
+                                                        <div class="checkbox__control">
+                                                            <svg class="checkbox__icon">
+                                                                <use href="../../assets/images/icons/sprite.svg#check">
+                                                            </svg>
+                                                        </div>
+                                                        <div class="checkbox__title">
+                                                            Default
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox" class="checkbox__input" checked>
+                                                    <div class="checkbox__state">
+                                                        <div class="checkbox__control">
+                                                            <svg class="checkbox__icon">
+                                                                <use href="../../assets/images/icons/sprite.svg#check">
+                                                            </svg>
+                                                        </div>
+                                                        <div class="checkbox__title">
+                                                            Checked
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                                <label class="checkbox__item">
+                                                    <input type="checkbox" class="checkbox__input" disabled>
+                                                    <div class="checkbox__state">
+                                                        <div class="checkbox__control">
+                                                            <svg class="checkbox__icon">
+                                                                <use href="../../assets/images/icons/sprite.svg#check">
+                                                            </svg>
+                                                        </div>
+                                                        <div class="checkbox__title">
+                                                            Disabled
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                                <label class="radio">
+                                                    <input type="radio" name="radio-name" value="default" class="radio__input">
+                                                    <div class="radio__state">
+                                                        <div class="radio__control">
+                                                            <div class="radio__circle"></div>
+                                                        </div>
+                                                        <div class="radio__title">
+                                                            Default
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                                <label class="radio">
+                                                    <input type="radio" name="radio-name" value="selected" class="radio__input" checked>
+                                                    <div class="radio__state">
+                                                        <div class="radio__control">
+                                                            <div class="radio__circle"></div>
+                                                        </div>
+                                                        <div class="radio__title">
+                                                            Selected
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                                <label class="radio">
+                                                    <input type="radio" name="radio-name" value="disabled" class="radio__input" disabled>
+                                                    <div class="radio__state">
+                                                        <div class="radio__control">
+                                                            <div class="radio__circle"></div>
+                                                        </div>
+                                                        <div class="radio__title">
+                                                            Disabled
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
                                         <div class="card__content">
                                             <div class="card__title">Custom form elements</div>
                                             <div class="card__description">Element</div>
@@ -223,7 +290,14 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="card__preview"></div>
+                                        <div class="card__preview">
+                                            <div class="avatar avatar__preview">
+                                                <img class="avatar__img"
+                                                src="../../06-lection4/01-avatar/public/avatar-200.jpg"
+                                                alt="Аватар"
+                                                >
+                                            </div>
+                                        </div>
                                         <div class="card__content">
                                             <div class="card__title">Avatar</div>
                                             <div class="card__description">Element</div>
@@ -232,8 +306,74 @@
                                 </div>
                             </main>
                         </div>
+                        <div class="tabs__content tabs__content_templates">
+                            <div class="tabs__content_templates_header">BUTTONS</div>
+                            <div class="button__preview">
+                                <div class="button__preview-title">Button</div>
+                                <div class="button__preview-items">
+                                    <button class="button button_primary">Primary</button>
+                                    <button class="button button_secondary">Secondary</button>
+                                    <button class="button button_alternate">Alternate</button>
+                                </div>
+                                <div class="button__preview-title-disabled">Button disabled</div>
+                                <div class="button__preview-items-disabled">
+                                    <button class="button button_primary" disabled>Primary</button>
+                                    <button class="button button_secondary" disabled>Secondary</button> 
+                                    <button class="button button_alternate" disabled>Alternate</button>
+                                </div>
+                            </div>
+                            <div class="tabs__content_templates_header">ACCORDION</div>
+                            <div class="accordion">
+                                <details class="accordion__item" open>
+                                    <summary class="accordion__summary">
+                                        <div class="accordion__title">Accordion item 1</div>
+                                        <svg class="accordion__icon">
+                                            <use href="../../assets/images/icons/sprite.svg#frame">
+                                        </svg>
+                                    </summary>
+                                    <div class="accordion__text">
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                    </div>
+                                </details>
+                                <details class="accordion__item">
+                                    <summary class="accordion__summary">
+                                        <div class="accordion__title">Accordion item 2</div>
+                                        <svg class="accordion__icon">
+                                            <use href="../../assets/images/icons/sprite.svg#frame">
+                                        </svg>                       
+                                    </summary>
+                                    <div class="accordion__text">
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                    </div>
+                                </details>
+                                <details class="accordion__item">
+                                    <summary class="accordion__summary">
+                                        <div class="accordion__title">Accordion item 3</div>
+                                        <svg class="accordion__icon">
+                                            <use href="../../assets/images/icons/sprite.svg#frame">
+                                        </svg>                      
+                                    </summary>
+                                    <div class="accordion__text">
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                    </div>
+                                </details>
+                            </div>
+                            <div class="tabs__content_templates_header">SKELETON</div>
+                            <div class="skeleton">
+                                <div class="skeleton__top">
+                                    <div class="skeleton__circle"></div>
+                                    <div class="skeleton__box">
+                                        <div class="skeleton__line skeleton__line_small"></div>
+                                        <div class="skeleton__line skeleton__line_medium"></div>
+                                    </div>
+                                </div>
+                                <div class="skeleton__bottom">
+                                    <div class="skeleton__line skeleton__line_big"></div>
+                                    <div class="skeleton__line skeleton__line_big"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button class="button button_alternate">Load more</button>
                 </div>
             </div>
             <footer class="footer">

@@ -10,10 +10,3 @@
     gap: 30px;
     justify-content: center;
 }
-.button {
-    margin-top: 64px;
-    margin-bottom: 92px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-}

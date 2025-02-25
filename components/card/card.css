@@ -33,6 +33,16 @@
     color: var(--grey-4);
 }
 
+.card__preview_checkbox-radio {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 42px 42px 42px; 
+    grid-auto-flow: column;
+    row-gap: 16px;
+    column-gap: 42px;
+    padding-bottom: 50px;
+}
+
 @media screen and (max-width: 768px) {
     .card {
         height: 367px;

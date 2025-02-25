@@ -48,3 +48,15 @@
     line-height: 24px;
     color: var(--grey-4);
 }
+
+.modal_preview {
+    width: 284px;
+    height: 222px;
+    border: 20px solid var(--grey-modal);
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--grey-4);
+    padding: 10px;
+}
