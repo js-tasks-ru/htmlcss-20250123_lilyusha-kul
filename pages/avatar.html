@@ -40,17 +40,58 @@
                                 <div class="menu__list">
                                     <div class="menu__list-item">Modal</div>
                                     <div class="menu__list-item">Tooltip</div>
-                                    <div class="menu__list-item">Avatar</div>
+                                    <div class="menu__list-item menu__list-item_selected">Avatar</div>
                                     <div class="menu__list-item">Calendar</div>
-                                    <div class="menu__list-item menu__list-item_selected">Histogram</div>
+                                    <div class="menu__list-item">Histogram</div>
                                     <div class="menu__list-item">Modal</div>
                                     <div class="menu__list-item">Custom form elements</div>
                                     <div class="menu__list-item menu__list-item_mt-30">Main page</div>
                                 </div>
                         </div>
                         <div class="component-description">
-                            <div class="component-description__title">Histogram</div>
-                            <div class="component-description__preview"></div>
+                            <div class="component-description__title">Avatar</div>
+                            <div class="component-description__preview">
+                                <div class="avatar">
+                                    <img class="avatar__img"
+                                    src="../../06-lection4/01-avatar/public/avatar-200.jpg"
+                                    alt="Аватар"
+                                    >
+                                </div>
+                                <div class="component-description__code">
+                                    <input type="radio" id="#html" name="component-description__code__tabs" class="component-description__code__tabs_html" autofocus checked>
+                                    <input type="radio" id="#css" name="component-description__code__tabs" class="component-description__code__tabs_css">
+                                    <div class="component-description__code__tabs__scroller">
+                                        <label for="#html" class="component-description__code__tabs__scroller_html">HTML</label>
+                                        <label for="#css" class="component-description__code__tabs__scroller_css">CSS</label>
+                                    </div>
+                                    <hr />
+                                    <div class="component-description__code__tabs__content component-description__code__tabs__content_html">
+                                        <pre>
+&lt;div class=&quot;avatar&quot;&gt;
+    &lt;img class=&quot;avatar__img&quot;
+    src=&quot;../../06-lection4/01-avatar/public/avatar-200.jpg&quot;
+    alt=&quot;Аватар&quot;
+    &gt;
+&lt;/div&gt;
+                                        </pre>    
+                                    </div>
+                                    <div class="component-description__code__tabs__content component-description__code__tabs__content_css">
+                                        <pre>
+.avatar {
+    width: 102px;
+    height: 102px;
+}
+
+.avatar__img {
+    width: 100&#37;;
+    height: 100&#37;;
+    object-fit: cover;
+    border-radius: 50&#37;;
+}
+                                        </pre>  
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

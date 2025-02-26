@@ -1,6 +1,24 @@
 .component-description {
     background: var(--white);
     padding: 32px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.component-description__preview {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.component-description__code__tabs__scroller {
+    display: flex;
+    gap: 40px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .component-description__title {
@@ -29,4 +47,47 @@
         color: var(--grey-4)
     }
     
+}
+
+.component-description__preview__elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 30px 30px;
+    row-gap: 16px;
+    column-gap: 50px;
+    grid-auto-flow: column
+}
+
+.component-description__preview__input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 50px;
+}
+
+.component-description__code__tabs__content {
+    display: none;
+}
+
+.component-description__code__tabs_html,
+.component-description__code__tabs_css {
+    position: absolute;
+    left: -100vw;
+}
+
+.component-description__code__tabs_html:checked ~ .component-description__code__tabs__content_html {
+    display: block;
+}
+
+.component-description__code__tabs_css:checked ~ .component-description__code__tabs__content_css {
+    display: block;
+}
+
+.component-description__code__tabs_html:focus ~ .component-description__code__tabs__scroller .component-description__code__tabs__scroller_html {
+    border-bottom: 5px solid var(--black);
+}
+
+.component-description__code__tabs_css:focus ~ .component-description__code__tabs__scroller .component-description__code__tabs__scroller_css {
+    border-bottom: 5px solid var(--black);
 }
