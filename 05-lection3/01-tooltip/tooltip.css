@@ -1,6 +1,8 @@
 .tooltip {
     display: inline-block;
     position: relative;
+    width: 24px;
+    height: 24px;
 }
 
 .tooltip__bubble {
@@ -34,4 +36,9 @@
 
 .tooltip__trigger:hover ~ .tooltip__bubble {
     display: block;
+}
+
+.tooltip__trigger_icon {
+    width: 24px;
+    height: 24px;
 }

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="../assets/css/normalize.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+    </head>
+    <body>
+        <div class="template">
+            <header class="header template__header header_background_transparent">
+                <div class="container">
+                    <div class="header__top">
+                        <div class="header__logo">
+                            <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_16746_155)">
+                                <rect y="1" width="30" height="30" fill="#212429"/>
+                                <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                                <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_16746_155">
+                                <rect width="110" height="32" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>                            
+                        </div>
+                        <div class="header__text">
+                            <p class="header__text-item header__text-item_selected">Components</p>
+                            <p class="header__text-item">About</p>
+                            <p class="header__text-item">Contact</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main template__main">
+                <div class="container">
+                    <div class="main__inner">
+                        <div class="menu">
+                            <div class="menu__title">Components</div>
+                                <div class="menu__list">
+                                    <div class="menu__list-item">Modal</div>
+                                    <div class="menu__list-item">Tooltip</div>
+                                    <div class="menu__list-item">Avatar</div>
+                                    <div class="menu__list-item">Calendar</div>
+                                    <div class="menu__list-item">Histogram</div>
+                                    <div class="menu__list-item">Modal</div>
+                                    <div class="menu__list-item menu__list-item_selected">Custom form elements</div>
+                                    <div class="menu__list-item menu__list-item_mt-30">Main page</div>
+                                </div>
+                        </div>
+                        <div class="component-description">
+                            <div class="component-description__title">Custom form elements</div>
+                            <div class="component-description__preview">
+                                <div class="component-description__preview__elements">
+                                    <label class="checkbox">
+                                        <input type="checkbox" class="checkbox__input">
+                                        <div class="checkbox__state">
+                                            <div class="checkbox__control">
+                                                <svg class="checkbox__icon">
+                                                    <use href="../../assets/images/icons/sprite.svg#check">
+                                                </svg>
+                                            </div>
+                                            <div class="checkbox__title">
+                                                Default
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" class="checkbox__input" checked>
+                                        <div class="checkbox__state">
+                                            <div class="checkbox__control">
+                                                <svg class="checkbox__icon">
+                                                    <use href="../../assets/images/icons/sprite.svg#check">
+                                                </svg>
+                                            </div>
+                                            <div class="checkbox__title">
+                                                Checked
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <label class="checkbox__item">
+                                        <input type="checkbox" class="checkbox__input" disabled>
+                                        <div class="checkbox__state">
+                                            <div class="checkbox__control">
+                                                <svg class="checkbox__icon">
+                                                    <use href="../../assets/images/icons/sprite.svg#check">
+                                                </svg>
+                                            </div>
+                                            <div class="checkbox__title">
+                                                Disabled
+                                            </div>
+                                        </div>
+                                    </label>
+                                
+                                    <label class="radio">
+                                        <input type="radio" name="radio-name" value="default" class="radio__input">
+                                        <div class="radio__state">
+                                            <div class="radio__control">
+                                                <div class="radio__circle"></div>
+                                            </div>
+                                            <div class="radio__title">
+                                                Default
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="radio-name" value="selected" class="radio__input" checked>
+                                        <div class="radio__state">
+                                            <div class="radio__control">
+                                                <div class="radio__circle"></div>
+                                            </div>
+                                            <div class="radio__title">
+                                                Selected
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="radio-name" value="disabled" class="radio__input" disabled>
+                                        <div class="radio__state">
+                                            <div class="radio__control">
+                                                <div class="radio__circle"></div>
+                                            </div>
+                                            <div class="radio__title">
+                                                Disabled
+                                            </div>
+                                        </div>
+                                    </label>
+                        
+                                    <label class="toggler">
+                                        <input type="checkbox" class="toggler__input">
+                                        <div class="toggler__state">
+                                            <div class="toggler__control">
+                                                <div class="toggler__inner"></div>
+                                            </div>
+                                            <div class="toggler__title">
+                                                Off
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <label class="toggler">
+                                        <input type="checkbox" class="toggler__input" checked>
+                                        <div class="toggler__state">
+                                            <div class="toggler__control">
+                                                <div class="toggler__inner"></div>
+                                            </div>
+                                            <div class="toggler__title">
+                                                On
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <label class="toggler">
+                                        <input type="checkbox" class="toggler__input" disabled>
+                                        <div class="toggler__state">
+                                            <div class="toggler__control">
+                                                <div class="toggler__inner"></div>
+                                            </div>
+                                            <div class="toggler__title">
+                                                Disabled
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="component-description__preview__input">
+                                    <div class="input">
+                                        <label class="input__label">LABEL</label>
+                                        <div class="input__wrapper">
+                                            <svg class="input__icon input__icon_success">
+                                                <use href="../../assets/images/icons/sprite.svg#success">
+                                            </svg>
+                                            <svg class="input__icon input__icon_error">
+                                                <use href="../../assets/images/icons/sprite.svg#error">
+                                            </svg>
+                                            <input type="text" placeholder="Placeholder" name="input" class="input__field">
+                                        </div>
+                                    </div>
+                                    <div class="input">
+                                        <label class="input__label">FOCUS</label>
+                                        <div class="input__wrapper">
+                                            <svg class="input__icon input__icon_success">
+                                                <use href="../../assets/images/icons/sprite.svg#success">
+                                            </svg>
+                                            <svg class="input__icon input__icon_error">
+                                                <use href="../../assets/images/icons/sprite.svg#error">
+                                            </svg>
+                                            <input autofocus type="text" placeholder="Filled Input" name="input" class="input__field">
+                                        </div>
+                                    </div>
+                                    <div class="input input_success">
+                                        <label class="input__label">SUCCESS</label>
+                                        <div class="input__wrapper">
+                                            <svg class="input__icon input__icon_success">
+                                                <use href="../../assets/images/icons/sprite.svg#success">
+                                            </svg>
+                                            <svg class="input__icon input__icon_error">
+                                                <use href="../../assets/images/icons/sprite.svg#error">
+                                            </svg>
+                                            <input autofocus type="text" placeholder="Success" name="input" class="input__field">
+                                        </div>
+                                    </div>
+                                    <div class="input input_error">
+                                        <label class="input__label">ERROR</label>
+                                        <div class="input__wrapper">
+                                            <svg class="input__icon input__icon_success">
+                                                <use href="../../assets/images/icons/sprite.svg#success">
+                                            </svg>
+                                            <svg class="input__icon input__icon_error">
+                                                <use href="../../assets/images/icons/sprite.svg#error">
+                                            </svg>
+                                            <input autofocus type="text" placeholder="Error" name="input" class="input__field">
+                                        </div>
+                                    </div>
+                                    <div class="input input_disabled">
+                                        <label class="input__label">DISABLED</label>
+                                        <div class="input__wrapper">
+                                            <svg class="input__icon input__icon_success">
+                                                <use href="../../assets/images/icons/sprite.svg#success">
+                                            </svg>
+                                            <svg class="input__icon input__icon_error">
+                                                <use href="../../assets/images/icons/sprite.svg#error">
+                                            </svg>
+                                            <input type="text" placeholder="Disabled" name="input" class="input__field" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="component-description__code">
+                                    <input type="radio" id="#html" name="component-description__code__tabs" class="component-description__code__tabs_html" autofocus checked>
+                                    <input type="radio" id="#css" name="component-description__code__tabs" class="component-description__code__tabs_css">
+                                    <div class="component-description__code__tabs__scroller">
+                                        <label for="#html" class="component-description__code__tabs__scroller_html">HTML</label>
+                                        <label for="#css" class="component-description__code__tabs__scroller_css">CSS</label>
+                                    </div>
+                                    <hr />
+                                    <div class="component-description__code__tabs__content component-description__code__tabs__content_html">
+                                        <pre>
+&lt;div class=&quot;component-description__preview__elements&quot;&gt;
+&lt;label class=&quot;checkbox&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox__input&quot;&gt;
+    &lt;div class=&quot;checkbox__state&quot;&gt;
+        &lt;div class=&quot;checkbox__control&quot;&gt;
+            &lt;svg class=&quot;checkbox__icon&quot;&gt;
+                &lt;use href=&quot;../../assets/images/icons/sprite.svg#check&quot;&gt;
+            &lt;/svg&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;checkbox__title&quot;&gt;
+            Default
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/label&gt;
+&lt;label class=&quot;checkbox&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox__input&quot; checked&gt;
+    &lt;div class=&quot;checkbox__state&quot;&gt;
+        &lt;div class=&quot;checkbox__control&quot;&gt;
+            &lt;svg class=&quot;checkbox__icon&quot;&gt;
+                &lt;use href=&quot;../../assets/images/icons/sprite.svg#check&quot;&gt;
+            &lt;/svg&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;checkbox__title&quot;&gt;
+            Checked
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/label&gt;
+&lt;label class=&quot;checkbox__item&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox__input&quot; disabled&gt;
+    &lt;div class=&quot;checkbox__state&quot;&gt;
+        &lt;div class=&quot;checkbox__control&quot;&gt;
+            &lt;svg class=&quot;checkbox__icon&quot;&gt;
+                &lt;use href=&quot;../../assets/images/icons/sprite.svg#check&quot;&gt;
+            &lt;/svg&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;checkbox__title&quot;&gt;
+            Disabled
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/label&gt;
+
+&lt;label class=&quot;radio&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;radio-name&quot; value=&quot;default&quot; class=&quot;radio__input&quot;&gt;
+    &lt;div class=&quot;radio__state&quot;&gt;
+        &lt;div class=&quot;radio__control&quot;&gt;
+            &lt;div class=&quot;radio__circle&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;radio__title&quot;&gt;
+            Default
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/label&gt;
+&lt;label class=&quot;radio&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;radio-name&quot; value=&quot;selected&quot; class=&quot;radio__input&quot; checked&gt;
+    &lt;div class=&quot;radio__state&quot;&gt;
+        &lt;div class=&quot;radio__control&quot;&gt;
+            &lt;div class=&quot;radio__circle&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;radio__title&quot;&gt;
+            Selected
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/label&gt;
+&lt;label class=&quot;radio&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;radio-name&quot; value=&quot;disabled&quot; class=&quot;radio__input&quot; disabled&gt;
+    &lt;div class=&quot;radio__state&quot;&gt;
+        &lt;div class=&quot;radio__control&quot;&gt;
+            &lt;div class=&quot;radio__circle&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;radio__title&quot;&gt;
+            Disabled
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/label&gt;
+
+&lt;label class=&quot;toggler&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;toggler__input&quot;&gt;
+    &lt;div class=&quot;toggler__state&quot;&gt;
+        &lt;div class=&quot;toggler__control&quot;&gt;
+            &lt;div class=&quot;toggler__inner&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;toggler__title&quot;&gt;
+            Off
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/label&gt;
+&lt;label class=&quot;toggler&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;toggler__input&quot; checked&gt;
+    &lt;div class=&quot;toggler__state&quot;&gt;
+        &lt;div class=&quot;toggler__control&quot;&gt;
+            &lt;div class=&quot;toggler__inner&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;toggler__title&quot;&gt;
+            On
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/label&gt;
+&lt;label class=&quot;toggler&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;toggler__input&quot; disabled&gt;
+    &lt;div class=&quot;toggler__state&quot;&gt;
+        &lt;div class=&quot;toggler__control&quot;&gt;
+            &lt;div class=&quot;toggler__inner&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;toggler__title&quot;&gt;
+            Disabled
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;component-description__preview__input&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+    &lt;label class=&quot;input__label&quot;&gt;LABEL&lt;/label&gt;
+    &lt;div class=&quot;input__wrapper&quot;&gt;
+        &lt;svg class=&quot;input__icon input__icon_success&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#success&quot;&gt;
+        &lt;/svg&gt;
+        &lt;svg class=&quot;input__icon input__icon_error&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#error&quot;&gt;
+        &lt;/svg&gt;
+        &lt;input type=&quot;text&quot; placeholder=&quot;Placeholder&quot; name=&quot;input&quot; class=&quot;input__field&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;input&quot;&gt;
+    &lt;label class=&quot;input__label&quot;&gt;FOCUS&lt;/label&gt;
+    &lt;div class=&quot;input__wrapper&quot;&gt;
+        &lt;svg class=&quot;input__icon input__icon_success&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#success&quot;&gt;
+        &lt;/svg&gt;
+        &lt;svg class=&quot;input__icon input__icon_error&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#error&quot;&gt;
+        &lt;/svg&gt;
+        &lt;input autofocus type=&quot;text&quot; placeholder=&quot;Filled Input&quot; name=&quot;input&quot; class=&quot;input__field&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;input input_success&quot;&gt;
+    &lt;label class=&quot;input__label&quot;&gt;SUCCESS&lt;/label&gt;
+    &lt;div class=&quot;input__wrapper&quot;&gt;
+        &lt;svg class=&quot;input__icon input__icon_success&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#success&quot;&gt;
+        &lt;/svg&gt;
+        &lt;svg class=&quot;input__icon input__icon_error&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#error&quot;&gt;
+        &lt;/svg&gt;
+        &lt;input autofocus type=&quot;text&quot; placeholder=&quot;Success&quot; name=&quot;input&quot; class=&quot;input__field&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;input input_error&quot;&gt;
+    &lt;label class=&quot;input__label&quot;&gt;ERROR&lt;/label&gt;
+    &lt;div class=&quot;input__wrapper&quot;&gt;
+        &lt;svg class=&quot;input__icon input__icon_success&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#success&quot;&gt;
+        &lt;/svg&gt;
+        &lt;svg class=&quot;input__icon input__icon_error&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#error&quot;&gt;
+        &lt;/svg&gt;
+        &lt;input autofocus type=&quot;text&quot; placeholder=&quot;Error&quot; name=&quot;input&quot; class=&quot;input__field&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;input input_disabled&quot;&gt;
+    &lt;label class=&quot;input__label&quot;&gt;DISABLED&lt;/label&gt;
+    &lt;div class=&quot;input__wrapper&quot;&gt;
+        &lt;svg class=&quot;input__icon input__icon_success&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#success&quot;&gt;
+        &lt;/svg&gt;
+        &lt;svg class=&quot;input__icon input__icon_error&quot;&gt;
+            &lt;use href=&quot;../../assets/images/icons/sprite.svg#error&quot;&gt;
+        &lt;/svg&gt;
+        &lt;input type=&quot;text&quot; placeholder=&quot;Disabled&quot; name=&quot;input&quot; class=&quot;input__field&quot; disabled&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+                                        </pre>    
+                                    </div>
+                                    <div class="component-description__code__tabs__content component-description__code__tabs__content_css">
+                                        <pre>
+.component-description__preview__elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 30px 30px;
+    row-gap: 16px;
+    column-gap: 50px;
+    grid-auto-flow: column
+}
+
+.component-description__preview__input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 50px;
+}
+.checkbox {
+    display: inline-block;
+}
+
+.checkbox__control {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid var(--grey-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox__input {
+    position: absolute;
+    left: -100vw;
+}
+
+.checkbox__state {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.checkbox__title {
+    font-family: &#039;Inter&#039;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+.checkbox__icon {
+    height: 24px;
+    width: 24px;
+    display: none;
+    color: var(--white);
+}
+
+.checkbox__input:checked ~ .checkbox__state .checkbox__control {
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
+.checkbox__input:checked ~ .checkbox__state .checkbox__icon {
+    display: block;
+}
+
+.checkbox__input:focus ~ .checkbox__state .checkbox__title {
+    text-decoration: underline;
+}
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__control {
+    background-color: var(--grey-2);
+    color: var(--grey-2);
+}
+.radio {
+    display: inline-block;
+}
+
+.radio__control {
+    width: 28px;
+    height: 28px;
+    border-radius: 50&#37;;
+    border: 2px solid var(--grey-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio__circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50&#37;;
+    background-color: var(--blue);
+    display: none;
+}
+
+.radio__input {
+    position: absolute;
+    left: -100vw;
+}
+
+.radio__state {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.radio__title {
+    font-family: &#039;Inter&#039;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+.radio__input:checked ~ .radio__state .radio__control {
+    border-color: var(--blue);
+}
+
+.radio__input:checked ~ .radio__state .radio__control .radio__circle {
+    display: block;
+}
+
+.radio__input:focus ~ .radio__state .radio__title {
+    text-decoration: underline;
+}
+
+.radio__input:disabled ~ .radio__state .radio__control {
+    background-color: var(--grey-2);
+    color: var(--grey-2);
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input__label {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 4&#37;;
+    color: var(--grey-3);
+}
+
+.input__field {
+    width: 100&#37;;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-2);
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-4);
+    padding: 0 24px;  
+}
+
+.input__field::placeholder {
+    color: var(--grey-2);
+}
+
+.input__wrapper {
+    position: relative;
+}
+
+.input__icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+} 
+
+.input__icon_success {
+    display: none;
+    color: var(--blue);
+}
+
+.input__icon_error {
+    display: none;
+    color: var(--red);
+}
+
+.input__field:focus {
+    border-color: var(--blue);
+}
+
+.input_success .input__icon_success {
+    display: block;
+}
+
+.input_error .input__icon_error {
+    display: block;
+}
+
+.input_error .input__field {
+    border: 1px solid var(--red);
+}
+
+.input_disabled .input__field {
+    color: var(--grey-2);
+    background-color: var(--grey-1);
+}
+                                        </pre>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer template__footer">
+                <div class="container">
+                    <div class="footer__text">
+                    Reusable component library
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
