@@ -1,0 +1,14 @@
+.theme-changer {
+    display: flex;
+    gap: 2px;
+}
+
+.theme-changer__icon {
+    width: 24px;
+    height: 24px;
+}
+
+html[data-theme-dark] {
+    background: var(--grey-3);
+    color: var(--white);
+}
