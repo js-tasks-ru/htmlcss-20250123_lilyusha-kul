@@ -17,6 +17,7 @@
 @import '../../07-lection5/02-radio/radio.css';
 @import '../../03-lection1/02-accordion/accordion.css';
 @import '../../04-lection2/02-skeleton/skeleton.css';
+@import '../../components/preview/preview.css';
 
 :root {
     --white: #ffffff;

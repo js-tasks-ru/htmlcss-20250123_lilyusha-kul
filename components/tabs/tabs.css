@@ -8,23 +8,15 @@
     margin-bottom: 50px;
 }
 
-.tabs__content_container {
+.tabs__content {
     display: none;
 }
 
-.tabs__content_element {
-    display: none;
-}
-
-.tabs__content_templates {
-    display: none;
-}
-
-.tabs__input {
+.tabs__inner {
     margin-bottom: 90px;
 }
 
-.tabs__input__item {
+.tabs__input-item {
     position: absolute;
     left: -100vw;
 }
@@ -35,7 +27,7 @@
     gap: 12px;
 }
 
-.radio__title {
+.tabs__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -46,37 +38,41 @@
     margin-right: 40px;
 }
 
-.tabs__input__item_all-tab:focus ~ .tabs__scroller .tabs__scroller__title_all-tab {
+.tabs__input-item_all-tab:focus ~ .tabs__scroller .tabs__scroller__title_all-tab {
     border-bottom: 5px var(--black) solid;
 }
-.tabs__input__item_elements-tab:focus ~ .tabs__scroller .tabs__scroller__title_elements-tab {
-    border-bottom: 5px var(--black) solid;
-}
-
-.tabs__input__item_containers-tab:focus ~ .tabs__scroller .tabs__scroller__title_containers-tab {
+.tabs__input-item_elements-tab:focus ~ .tabs__scroller .tabs__scroller__title_elements-tab {
     border-bottom: 5px var(--black) solid;
 }
 
-.tabs__input__item_templates-tab:focus ~ .tabs__scroller .tabs__scroller__title_templates-tab {
+.tabs__input-item_containers-tab:focus ~ .tabs__scroller .tabs__scroller__title_containers-tab {
     border-bottom: 5px var(--black) solid;
 }
 
-.tabs__input__item_all-tab:checked ~ .tabs__content_container {
+.tabs__input-item_templates-tab:focus ~ .tabs__scroller .tabs__scroller__title_templates-tab {
+    border-bottom: 5px var(--black) solid;
+}
+
+/* .tabs__input-item:focus ~ .tabs__scroller .tabs__scroller__title {
+    border-bottom: 5px var(--black) solid;
+} */
+
+.tabs__input-item_all-tab:checked ~ .tabs__content_container {
     display: block;
 } 
 
-.tabs__input__item_all-tab:checked ~ .tabs__content_element {
+.tabs__input-item_all-tab:checked ~ .tabs__content_element {
     display: block;
 } 
 
-.tabs__input__item_containers-tab:checked ~ .tabs__content_container {
+.tabs__input-item_containers-tab:checked ~ .tabs__content_container {
     display: block;
 } 
 
-.tabs__input__item_elements-tab:checked ~ .tabs__content_element {
+.tabs__input-item_elements-tab:checked ~ .tabs__content_element {
     display: block;
 } 
-.tabs__input__item_templates-tab:checked ~ .tabs__content_templates {
+.tabs__input-item_templates-tab:checked ~ .tabs__content_templates {
     display: block;
 }
 .tabs__content_templates_header {

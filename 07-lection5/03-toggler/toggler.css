@@ -27,7 +27,6 @@
     height: 24px;
     border-radius: 50%;
     background-color: var(--grey-2);
-    
 }
 
 .toggler__title {
@@ -43,10 +42,14 @@
     background-color: var(--blue);
     border-color: var(--blue);
     justify-content: end;
+    transition-duration: 2s;
+    transition-property: background-color;
 }
 
 .toggler__input:checked ~ .toggler__state .toggler__inner {
     background-color: var(--white);
+    transition-duration: 2s;
+    transition-property: background-color;
 }
 
 .toggler__input:focus ~ .toggler__state .toggler__title {

@@ -13,7 +13,7 @@
     color: var(--black); 
 }
 
-.header__top {
+.header__logo {
     display: flex;
     justify-content: space-between;
 }

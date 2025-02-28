@@ -11,10 +11,19 @@
     font-weight: 500;
     height: 48px;
 }
+
+.button_primary:active,
+.button_secondary:active,
+.button_alternate:active {
+    transform: translateY(5px);
+    transition: transform 200ms linear;
+}
+
 button:disabled {
     opacity: 0.5;
     pointer-events: none;
 }
+
 .button_primary {
     color: var(--white);
     background: var(--primary);
@@ -22,7 +31,6 @@ button:disabled {
 }
 .button_primary:hover {
     background: #2342C0;
-    ;
   }
 .button_secondary {
     color: var(--white);
@@ -40,17 +48,4 @@ button:disabled {
 }
 .button_alternate:hover {
     border: 1px solid #212429
-}
-
-.button__preview {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    grid-template-rows: 50px;
-    row-gap: 30px;
-    column-gap: 10px;
-    align-items: center;
-}
-
-.button__preview-title-disabled {
-    opacity: 0.5;
 }

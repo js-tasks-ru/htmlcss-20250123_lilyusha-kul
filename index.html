@@ -10,8 +10,8 @@
         <div class="page">
             <header class="header">
                 <div class="container">
-                    <div class="header__top">
-                        <div class="header__logo">
+                    <div class="header__logo">
+                        <div class="logo__img">
                             <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_16746_155)">
                                 <rect y="1" width="30" height="30" fill="#212429"/>
@@ -25,21 +25,21 @@
                                 </defs>
                             </svg>                            
                         </div>
-                        <div class="header__text">
-                            <p class="header__text-item header__text-item_selected">Components</p>
-                            <p class="header__text-item">About</p>
-                            <p class="header__text-item">Contact</p>
+                        <div class="logo__text">
+                            <p class="logo__text-item logo__text-item_selected">Components</p>
+                            <p class="logo__text-item">About</p>
+                            <p class="logo__text-item">Contact</p>
                         </div>
                     </div>
                     <h1 class="header__title">Reusable component library</h1>
             </header>
             <div class="tabs">
                 <div class="container">
-                    <div class="tabs__input">
-                        <input type="radio" id="#all-tab" name="tabs" class="tabs__input__item tabs__input__item_all-tab" autofocus checked>
-                        <input type="radio" id="#elements-tab" class="tabs__input__item tabs__input__item_elements-tab" name="tabs">
-                        <input type="radio" id="#containers-tab" class="tabs__input__item tabs__input__item_containers-tab" name="tabs">
-                        <input type="radio" id="#templates-tab" class="tabs__input__item tabs__input__item_templates-tab" name="tabs">
+                    <div class="tabs__inner">
+                        <input type="radio" id="#all-tab" name="tabs" class="tabs__input-item tabs__input-item_all-tab" autofocus checked>
+                        <input type="radio" id="#elements-tab" class="tabs__input-item tabs__input-item_elements-tab" name="tabs">
+                        <input type="radio" id="#containers-tab" class="tabs__input-item tabs__input-item_containers-tab" name="tabs">
+                        <input type="radio" id="#templates-tab" class="tabs__input-item tabs__input-item_templates-tab" name="tabs">
                     
                         <div class="tabs__scroller">
                             <label class="tabs__scroller__title tabs__scroller__title_all-tab" for="#all-tab">All components</label>
@@ -291,7 +291,7 @@
                                     </div>
                                     <div class="card">
                                         <div class="card__preview">
-                                            <div class="avatar avatar__preview">
+                                            <div class="avatar avatar_large">
                                                 <img class="avatar__img"
                                                 src="../../06-lection4/01-avatar/public/avatar-200.jpg"
                                                 alt="Аватар"
@@ -308,15 +308,15 @@
                         </div>
                         <div class="tabs__content tabs__content_templates">
                             <div class="tabs__content_templates_header">BUTTONS</div>
-                            <div class="button__preview">
-                                <div class="button__preview-title">Button</div>
-                                <div class="button__preview-items">
+                            <div class="preview__button">
+                                <div class="preview__button-title">Button</div>
+                                <div class="preview__button-items">
                                     <button class="button button_primary">Primary</button>
                                     <button class="button button_secondary">Secondary</button>
                                     <button class="button button_alternate">Alternate</button>
                                 </div>
-                                <div class="button__preview-title-disabled">Button disabled</div>
-                                <div class="button__preview-items-disabled">
+                                <div class="preview__button-title-disabled">Button disabled</div>
+                                <div class="preview__button-items-disabled">
                                     <button class="button button_primary" disabled>Primary</button>
                                     <button class="button button_secondary" disabled>Secondary</button> 
                                     <button class="button button_alternate" disabled>Alternate</button>
